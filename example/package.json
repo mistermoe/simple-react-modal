@@ -1,0 +1,24 @@
+{
+  "name": "simple-react-modal-example",
+  "description": "example usage of simple-react-modal",
+  "scripts": {
+    "transpile": "webpack",
+    "dev": "webpack --watch",
+    "server": "node server.js"
+  },
+  "author": "Moe Jangda",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "*",
+    "babel-loader": "*",
+    "babel-preset-es2015": "*",
+    "babel-preset-react": "*",
+    "css-loader": "^0.23.1",
+    "express": "*",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "style-loader": "^0.13.1",
+    "webpack": "*"
+  }
+}

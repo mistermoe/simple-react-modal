@@ -1,0 +1,42 @@
+{
+  "name": "react-simple-modal",
+  "version": "0.5.0",
+  "description": "a simple general purpose modal component for React",
+  "main": "src/Modal.js",
+  "scripts": {
+    "transpile": "webpack",
+    "dev": "webpack --watch",
+    "server": "node example/server.js"
+  },
+  "dependencies": {
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0"
+  },
+  "devDependencies": {
+    "babel-cli": "*",
+    "babel-loader": "*",
+    "babel-preset-es2015": "*",
+    "babel-preset-react": "*",
+    "css-loader": "^0.23.1",
+    "express": "*",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "style-loader": "^0.13.1",
+    "webpack": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mistermoe/simple-react-modal"
+  },
+  "keywords": [
+    "modal",
+    "react",
+    "react-component",
+    "frontend"
+  ],
+  "author": "Moe Jangda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mistermoe/simple-react-modal/issues"
+  },
+  "homepage": "https://github.com/mistermoe/simple-react-modal"
+}
